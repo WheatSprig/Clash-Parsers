@@ -1,3 +1,4 @@
+# https://github.com/Fndroid/clash_for_windows_pkg/issues/2193
 parsers: # array
   # - reg: ^.*$ 匹配所有订阅，或  - url: https://example.com/profile.yaml 指定订阅
   - reg: ^.*$
