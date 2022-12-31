@@ -86,15 +86,15 @@ parsers: # array
            # - 节点名称或其他分组套娃
           
       commands:
-        - proxy-groups.PROXY.proxies.100+🇺🇸 自动切换-美国
         - proxy-groups.🇺🇸 自动切换-美国.proxies=[]proxyNames|^(.*)(美国|USA|🇺🇸|America)+(.*)$
-        
-        - proxy-groups.PROXY.proxies.100+🇭🇰 自动切换-香港
+        - proxy-groups.PROXY.proxies.100+🇺🇸 自动切换-美国
+
         - proxy-groups.🇭🇰 自动切换-香港.proxies=[]proxyNames|^(.*)(香港|Hong Kong|HK|🇭🇰|HongKong)+(.*)$
-        
-        - proxy-groups.PROXY.proxies.100+🇸🇬 自动切换-新加坡
+        - proxy-groups.PROXY.proxies.100+🇭🇰 自动切换-香港
+
         - proxy-groups.🇸🇬 自动切换-新加坡.proxies=[]proxyNames|^(.*)(新加坡|SG|🇸🇬|Singapore)+(.*)$
-        
+        - proxy-groups.PROXY.proxies.100+🇸🇬 自动切换-新加坡
+
         - proxy-groups.🔰 自动切换.proxies=[]proxyNames
         - proxy-groups.🔰 选择节点.proxies=[]proxyNames # 向指定策略组添加订阅中的节点名，可使用正则过滤
         #- proxy-groups.🔰 选择节点.proxies.0+DIRECT # 向指定分组第一个位置添加一个 DIRECT 节点名
